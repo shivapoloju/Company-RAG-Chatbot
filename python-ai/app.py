@@ -1,7 +1,11 @@
-from fastapi import FastAPI, UploadFile, File
-from pydantic import BaseModel
+import sys
 from pathlib import Path
 import shutil
+from fastapi import FastAPI, UploadFile, File
+from pydantic import BaseModel
+
+# Add current folder to python path for package resolution
+sys.path.append(str(Path(__file__).resolve().parent))
 
 from rag.ingest import ingest
 from rag.chain import ask
