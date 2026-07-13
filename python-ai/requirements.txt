@@ -5,9 +5,7 @@ langchain
 langchain-community
 langchain-core
 langchain-google-genai
-sentence-transformers
 pypdf
 faiss-cpu
 python-dotenv
 python-multipart
-torch
