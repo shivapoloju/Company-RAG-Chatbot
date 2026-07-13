@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+client/dist/
+python-ai/venv/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+python-ai/.env
+
+# Python caching
+__pycache__/
+*.pyc
+python-ai/rag/__pycache__/
+python-ai/__pycache__/
+
+# Document Uploads (private user data)
+backend/uploads/*
+python-ai/uploads/*
+!backend/uploads/.gitkeep
+!python-ai/uploads/.gitkeep
+
+# Vector Databases (generated locally per session)
+python-ai/vectors/*
+!python-ai/vectors/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
