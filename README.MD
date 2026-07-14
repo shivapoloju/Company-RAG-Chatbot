@@ -1,5 +1,7 @@
 # 🤖 Company Knowledge RAG Chatbot
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen?style=for-the-badge&logo=vercel)](https://company-rag-chatbot-beta.vercel.app)
+
 An enterprise-grade, multi-session **Retrieval-Augmented Generation (RAG)** chatbot. Every user has their own workspace, and every chat session has a fully **isolated vector database** partitioned dynamically by chat session ID. Users can upload their own PDFs to a chat session, and the system answers questions grounded strictly in the context of the uploaded files, providing precise page-level citations.
 
 ---
